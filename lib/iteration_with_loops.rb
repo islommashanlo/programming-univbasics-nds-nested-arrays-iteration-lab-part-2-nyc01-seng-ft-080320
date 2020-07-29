@@ -6,7 +6,8 @@ array_index = 0
     element_index = 0
     nested_element = -1
     while element_index < src[array_index] do
-      if
+      if src[array_index][element_index] < nested_element
+        nested_element = src[array_index][element_index]
     end
     array_index += 1
   end
