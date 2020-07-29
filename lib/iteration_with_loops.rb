@@ -4,8 +4,9 @@ def find_min_in_nested_arrays(src)
 array_index = 0
   while array_index < src.length do
     element_index = 0
+    nested_element = -1
     while element_index < src[array_index] do
-
+      if
     end
     array_index += 1
   end
