@@ -6,6 +6,6 @@ array_index = 0
     element_index = 0
     nested_element = -1
     while element_index < src[array_index].length do
-      if nested_element
+      if src[array_index][element_index] < neste
     end
 end
