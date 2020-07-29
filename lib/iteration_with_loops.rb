@@ -3,5 +3,5 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
 minimums = []
 array_index = 0
-  minimums.push(src[].min)
+  minimums.push(src[array_index].min)
 end
