@@ -6,6 +6,7 @@ array_index = 0
     element_index = 0
     while element_index < src[array_index]
       minimum_value = src[array_index].min
+      element_index += 1
     end
     array_index += 1
   end
