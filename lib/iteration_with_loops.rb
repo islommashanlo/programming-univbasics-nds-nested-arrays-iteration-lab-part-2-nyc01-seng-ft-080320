@@ -10,6 +10,6 @@ new_array = []
       while src[array_index][element_index] != nested_element do
         nested_element +=1
       end
-
+      new_array.push[src[array_index][element_index]]
     end
 end
