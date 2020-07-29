@@ -8,6 +8,8 @@ array_index = 0
     while element_index < src[array_index] do
       if src[array_index][element_index] < nested_element
         nested_element = src[array_index][element_index]
+      end
+      element_index += 1
     end
     array_index += 1
   end
