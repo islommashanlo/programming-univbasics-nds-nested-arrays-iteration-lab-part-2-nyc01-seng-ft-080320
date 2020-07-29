@@ -6,8 +6,8 @@ array_index = 0
     element_index = 0
     nested_element = -1
     while element_index < src[array_index].length do
-      loop src[array_index][element_index] < nested_element do
-
+      while src[array_index][element_index] != nested_element do
+        nested_element +=1
       end
     end
 end
