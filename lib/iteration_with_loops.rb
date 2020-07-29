@@ -10,5 +10,6 @@ minimums = []
       element_index += 1
     end
     array_index += 1
+    minimums.push(minimum_value)
   end
 end
