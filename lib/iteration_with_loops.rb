@@ -12,4 +12,5 @@ new_array = []
       end
       new_array.push[src[array_index][element_index]]
     end
+    p new_array
 end
