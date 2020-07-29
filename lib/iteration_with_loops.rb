@@ -12,6 +12,7 @@ minimums = []
       end
       element_index += 1
     end
+    minimums.push(nested_element)
     array_index += 1
   end
 end
