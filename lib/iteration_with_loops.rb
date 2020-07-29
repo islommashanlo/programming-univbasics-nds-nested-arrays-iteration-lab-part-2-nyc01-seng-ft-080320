@@ -7,5 +7,6 @@ array_index = 0
     while element_index < src[array_index] do
 
     end
+    array_index += 1
   end
 end
