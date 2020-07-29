@@ -12,4 +12,5 @@ minimums = []
     array_index += 1
     minimums.push(minimum_value)
   end
+  minimums
 end
